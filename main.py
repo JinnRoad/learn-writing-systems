@@ -3,7 +3,7 @@ from random import choice
 
 
 file = 'writing-systems/jp-hiragana.txt'  # TSV containing glyphs and romanization
-test_order = 0  # Test glyph first: 0. Test romanization first: 1
+column_order = 0  # Test glyph first: 0. Test romanization first: 1
 glyphs_per_word = 2
 
 def main():
